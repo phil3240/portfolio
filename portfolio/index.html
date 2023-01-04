@@ -10,12 +10,23 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Hjem</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="ommig.html">Om mig</a></li>
+      <nav class="navbar">
+        <ul class="nav_menu">
+          <li class="nav_item">
+            <a class="nav_link" href="index.html">Hjem</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="ommig.html">Om mig</a>
+          </li>
         </ul>
+        <div class="burgermenu">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+          <span class="bar3"></span>
+        </div>
       </nav>
     </header>
     <main>
@@ -24,7 +35,7 @@
       <h1 id="h1_forside">Port<span class="hvidtekst">folio</span></h1>
       <div class="noget">
         <h2 class="navn">Phillip <span class="orangetekst">Kongstad</span></h2>
-        <a href="portfolio.html">Se mine projekter</a>
+        <a class="knap" href="portfolio.html">Se mine projekter</a>
       </div>
     </main>
     <footer>
@@ -33,5 +44,6 @@
       <br />
       <p>Phillip Kongstad</p>
     </footer>
+    <script src="menu.js"></script>
   </body>
 </html>
