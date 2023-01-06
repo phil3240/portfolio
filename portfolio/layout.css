@@ -21,3 +21,29 @@ main {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/*------------- media til web ----------*/
+@media (min-width: 700px) {
+  .forsidebil {
+    width: 80%;
+    position: relative;
+    margin: 100px 0px 0px 150px;
+  }
+
+  #h1_forside {
+    font-size: 4.5rem;
+    color: #c46b05;
+    font-family: astoria;
+  }
+
+  .navn {
+    margin-left: 100px;
+    font-size: 3rem;
+    font-family: astoria;
+  }
+
+  .noget {
+    display: flex;
+    justify-content: space-between;
+  }
+}

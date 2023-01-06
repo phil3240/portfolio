@@ -8,13 +8,6 @@
 body {
   background-color: #003f67;
 }
-/*
-h1,
-h2,
-p {
-  color: #fff;
-}
-*/
 
 h1 {
   font-family: astoria;
@@ -24,7 +17,7 @@ h1 {
 }
 
 img {
-  margin: 20px;
+  margin: 20px auto;
 }
 
 .orangetekst {
@@ -37,7 +30,7 @@ img {
 
 .navn {
   font-family: astoria;
-  margin: -15px 0px 0px 80px;
+  margin: -15px 0px 0px 50px;
 }
 
 p {
@@ -65,31 +58,6 @@ h2 {
   background-color: #fff;
 }
 
-/*------------- media til web ----------*/
-@media (min-width: 700px) {
-  .forsidebil {
-    width: 80%;
-    position: relative;
-    margin: 100px 0px 0px 150px;
-  }
-
-  #h1_forside {
-    font-size: 4.5rem;
-    color: #c46b05;
-    font-family: astoria;
-  }
-
-  .navn {
-    padding-left: 80px;
-    font-size: 3rem;
-    font-family: astoria;
-  }
-
-  .noget {
-    display: flex;
-    justify-content: space-between;
-  }
-}
 /*------------- Header ------------*/
 nav ul {
   display: flex;
@@ -132,9 +100,6 @@ footer p {
 
 .lille_oekse {
   width: 30%;
-}
-
-.cta {
 }
 
 /*---------------- Burger menu --------------*/
@@ -215,5 +180,20 @@ footer p {
   .navbar {
     display: flex;
     justify-content: end;
+  }
+}
+
+/*----------- animationer ---------*/
+
+.ind_fra_ventre {
+  animation: ind_fra_ventre 2s;
+}
+
+@keyframes ind_fra_ventre {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
