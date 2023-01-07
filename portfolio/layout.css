@@ -15,15 +15,19 @@ main {
   max-width: 1200px;
   margin-inline: auto;
 }
+
+/*------------- media til web ----------*/
 @media (min-width: 700px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-}
 
-/*------------- media til web ----------*/
-@media (min-width: 700px) {
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
   .forsidebil {
     width: 80%;
     position: relative;
