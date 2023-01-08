@@ -197,6 +197,44 @@ footer p {
   }
 }
 
+.pil {
+  animation: pil 2s infinite;
+}
+
+@keyframes pil {
+  0% {
+    transform: translateY(-15%);
+  }
+
+  50% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-15%);
+  }
+}
+
+/*--------------- om mig ------------ */
 dl {
   margin-left: 20px;
+}
+dd {
+  margin-bottom: 20px;
+}
+
+.centrering {
+  text-align: center;
+}
+
+.pil {
+  font-size: 5rem;
+  color: #c46b05;
+  margin-top: 100px;
+}
+
+@media (max-width: 700px) {
+  .pil {
+    display: none;
+  }
 }
