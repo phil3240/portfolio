@@ -50,9 +50,28 @@ h3 {
   padding: 10px;
   border-radius: 8px;
   background-color: #c46b05;
+  box-shadow: 0px 6px 10px #00000086;
+  font-size: 1rem;
+}
+
+.forside_knap {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #c46b05;
+  box-shadow: 0px 6px 10px #00000086;
+}
+
+.opgave_link {
+  text-decoration: underline;
+  font-size: 1rem;
+  color: #c46b05;
 }
 
 .knap:hover {
+  color: #c46b05;
+  background-color: #fff;
+}
+.forside_knap:hover {
   color: #c46b05;
   background-color: #fff;
 }
@@ -82,8 +101,7 @@ a:hover {
 /*------------------- footer -------------*/
 
 footer p {
-  display: grid;
-  justify-content: center;
+  text-align: center;
 }
 .streg {
   width: 90%;
@@ -92,7 +110,7 @@ footer p {
   margin-right: auto;
   background-color: #c46b05;
   border-radius: 3px;
-  margin-top: 50px;
+  margin: 50px;
 }
 
 /*-------------- portfolio -----------------*/
