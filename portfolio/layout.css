@@ -9,6 +9,7 @@ img {
   height: auto;
   display: block;
   border-radius: 10px;
+  margin: 20px auto;
 }
 
 main {
@@ -48,6 +49,18 @@ main {
     font-size: 4.5rem;
     color: #c46b05;
     font-family: astoria;
+  }
+
+  .forside_knap {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #c46b05;
+    box-shadow: 0px 6px 10px #00000086;
+  }
+
+  .forside_knap:hover {
+    color: #c46b05;
+    background-color: #fff;
   }
 
   .navn {

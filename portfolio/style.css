@@ -17,10 +17,6 @@ h1 {
   margin: 50px 0px 10px 0px;
 }
 
-img {
-  margin: 20px auto;
-}
-
 .orangetekst {
   color: #c46b05;
 }
@@ -54,13 +50,6 @@ h3 {
   font-size: 1rem;
 }
 
-.forside_knap {
-  padding: 10px;
-  border-radius: 8px;
-  background-color: #c46b05;
-  box-shadow: 0px 6px 10px #00000086;
-}
-
 .opgave_link {
   text-decoration: underline;
   font-size: 1rem;
@@ -68,10 +57,6 @@ h3 {
 }
 
 .knap:hover {
-  color: #c46b05;
-  background-color: #fff;
-}
-.forside_knap:hover {
   color: #c46b05;
   background-color: #fff;
 }
