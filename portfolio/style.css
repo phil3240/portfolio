@@ -1,8 +1,12 @@
 @font-face {
-  font-family: "astoriaextrabolduploaded_file";
+  font-family: "astoria";
   src: url("astoriaextrabold-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,8 +25,17 @@ h1 {
   color: #c46b05;
 }
 
+.noget {
+  display: grid;
+}
+
 .hvidtekst {
   color: #fff;
+}
+
+.forside_knap {
+  margin-top: 30px;
+  font-size: 1.3rem;
 }
 
 .navn {
@@ -39,7 +52,7 @@ h3 {
 
 #h1_forside {
   text-align: left;
-  margin-top: 0px;
+  margin: 0px 0px 20px 20px;
 }
 
 .knap {
@@ -50,15 +63,16 @@ h3 {
   font-size: 1rem;
 }
 
+.knap:hover {
+  color: #c46b05;
+  background-color: #fff;
+  transition: all 0.5s ease 0s;
+}
+
 .opgave_link {
   text-decoration: underline;
   font-size: 1rem;
   color: #c46b05;
-}
-
-.forside .knap:hover {
-  color: #c46b05;
-  background-color: #fff;
 }
 
 /*------------- Header ------------*/
@@ -89,9 +103,15 @@ a:hover {
 
 /*------------------- footer -------------*/
 
-footer p {
+.footer {
+  margin-top: -35px;
   text-align: center;
 }
+
+footer p {
+  margin: 0.5rem;
+}
+
 .streg {
   width: 90%;
   height: 7px;
@@ -99,9 +119,11 @@ footer p {
   margin-right: auto;
   background-color: #c46b05;
   border-radius: 3px;
-  margin: 50px;
+  margin-block: 50px;
 }
-
+footer .streg {
+  margin-top: 7rem;
+}
 /*-------------- portfolio -----------------*/
 
 .lille_oekse {
@@ -214,7 +236,7 @@ footer p {
 
 @keyframes pil {
   0% {
-    transform: translateY(-30%);
+    transform: translateY(-20%);
   }
 
   50% {
@@ -222,7 +244,7 @@ footer p {
   }
 
   100% {
-    transform: translateY(-30%);
+    transform: translateY(-20%);
   }
 }
 

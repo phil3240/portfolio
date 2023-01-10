@@ -59,6 +59,7 @@ main {
   }
 
   .forside_knap {
+    margin-top: -10px;
     padding: 10px;
     border-radius: 8px;
     background-color: #c46b05;
