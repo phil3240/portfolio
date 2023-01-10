@@ -108,6 +108,10 @@ footer p {
   width: 30%;
 }
 
+.opgave_billeder {
+  margin: auto;
+}
+
 /*---------------- Burger menu --------------*/
 
 .burgermenu {
