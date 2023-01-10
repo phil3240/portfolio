@@ -83,6 +83,10 @@ a:hover {
   transition: all 0.5s ease 0s;
 }
 
+.aktiv_side {
+  text-decoration: underline;
+}
+
 /*------------------- footer -------------*/
 
 footer p {
