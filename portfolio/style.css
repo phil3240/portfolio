@@ -56,7 +56,7 @@ h3 {
   color: #c46b05;
 }
 
-.knap:hover {
+.forside .knap:hover {
   color: #c46b05;
   background-color: #fff;
 }
@@ -214,7 +214,7 @@ footer p {
 
 @keyframes pil {
   0% {
-    transform: translateY(-15%);
+    transform: translateY(-30%);
   }
 
   50% {
@@ -222,7 +222,7 @@ footer p {
   }
 
   100% {
-    transform: translateY(-15%);
+    transform: translateY(-30%);
   }
 }
 
@@ -239,9 +239,8 @@ dd {
 }
 
 .pil {
-  font-size: 5rem;
-  color: #c46b05;
-  margin-top: 100px;
+  width: 7%;
+  margin: 100px auto;
 }
 
 @media (max-width: 700px) {
