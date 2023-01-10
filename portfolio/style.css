@@ -82,7 +82,7 @@ nav ul {
   justify-content: center;
   list-style: none;
   gap: 60px;
-  margin: 30px 0px 30px 0px;
+  margin-block: 30px;
 }
 
 a {
@@ -126,10 +126,6 @@ footer .streg {
   margin-top: 7rem;
 }
 /*-------------- portfolio -----------------*/
-
-.lille_oekse {
-  width: 30%;
-}
 
 .opgave_billeder {
   margin: auto;
@@ -192,7 +188,7 @@ footer .streg {
   .bar3.active {
     transform: translateY(-8px) rotate(-45deg);
   }
-  /* Det her er selve menuen */
+  /* Det her er selve indholdet i menuen */
   .nav_menu {
     position: relative;
     left: -100%;
@@ -250,6 +246,7 @@ footer .streg {
 }
 
 /*--------------- om mig ------------ */
+
 dl {
   margin-left: 20px;
 }
